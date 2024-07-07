@@ -7,5 +7,6 @@ VERSION=3.5
 def print_version_info():
     print(f"The version of this game is {VERSION}.")
 
-#여기에 패키지 초기화 코드를 작성
+#여기에 패키지 초기화 코드를 작성. 패키지를 처음 import할 때 초기화 코드가 실행된다.
+#한 번 실행된 후에는 다시 import를 수행하더라도 실행되지 않는다.
 print("Initializing game")
